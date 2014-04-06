@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "name": "node-googlefonts",
+  "version": "0.1.0",
+  "description": "Node/Meteor wrapper for googlefonts API",
+  "main": "lib/googlefonts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/udondan/googlefonts.git"
+  },
+  "keywords": [
+    "google",
+    "fonts",
+    "googlefonts",
+    "api"
+  ],
+  "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udondan/googlefonts/issues"
+  },
+  "dependencies": {}
+}
