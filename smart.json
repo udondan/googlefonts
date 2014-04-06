@@ -1,6 +1,6 @@
 {
   "name": "googlefonts",
-  "description": Meteor wrapper for googlefonts API",
+  "description": "Meteor wrapper for googlefonts API",
   "homepage": "https://github.com/udondan/googlefonts",
   "author": "Daniel Phatthanan <daniel@phatthanan.com> (http://phatthanan.com/)",
   "version": "0.1.0",
