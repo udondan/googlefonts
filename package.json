@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "node-googlefonts",
   "version": "0.1.0",
   "description": "Node/Meteor wrapper for googlefonts API",
