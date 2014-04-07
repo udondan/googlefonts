@@ -10,7 +10,7 @@ To use the Google Fonts API, you need to [acquire an API key](https://developers
 ##Install
 The module is registered in [npm](https://www.npmjs.org/package/googlefonts) and [Atmosphere](https://atmospherejs.com/package/googlefonts) repositories.
 
-###Install via NPM:
+###Install via [npm](https://www.npmjs.org/):
 ``` sh
 $ npm install googlefonts
 ```
