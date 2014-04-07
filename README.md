@@ -25,7 +25,7 @@ $ mrt add googlefonts
 ##Usage
 ###In plain Node.js you need to require the module manually:
 ``` JavaScript
-var googlefonts = new require("googlefonts").googlefonts;
+var googlefonts = require("googlefonts").googlefonts;
 ```
 
 ###Fetching all fonts from Google:
