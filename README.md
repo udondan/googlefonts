@@ -8,7 +8,12 @@ This module will work in plain Node.js and within Meteor applications. By defaul
 To use the Google Fonts API, you need to [acquire an API key](https://developers.google.com/fonts/docs/developer_api#Auth) for server applications.
 
 ##Install
-The module is currently only registered at [Atmosphere](https://atmospherejs.com/package/googlefonts) repository, since the npm backend is broken.
+The module is registered in [npm](https://www.npmjs.org/package/googlefonts) and [Atmosphere](https://atmospherejs.com/package/googlefonts) repositories.
+
+###Install via NPM:
+``` sh
+$ npm install googlefonts
+```
 
 ###Install via [Meteorite](http://oortcloud.github.io/meteorite/)
 
