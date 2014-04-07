@@ -83,7 +83,7 @@ The result is a JSON object as returned from the API. It's the same exact conten
     "800": "http://themes.googleusercontent.com/static/fonts/opensans/v8/EInbV5DfGHOiMmvb1Xr-hi3USBnSvpkopQaUR-2r7iU.ttf",
     "800italic": "http://themes.googleusercontent.com/static/fonts/opensans/v8/PRmiXeptR36kaC0GEAetxg89PwPrYLaRFJ-HNCU9NbA.ttf"
    }
-  }
+  },
   // ...more fonts...
 }
 ```
