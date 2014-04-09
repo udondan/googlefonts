@@ -1,6 +1,8 @@
 googlefonts
 ================
 
+[![NPM version](https://badge.fury.io/js/googlefonts.png)](https://www.npmjs.org/package/googlefonts)
+
 Node/Meteor wrapper for googlefonts API.
 
 This is basically not doing anything but requesting a single URL from the Google API and converting the result to JSON. The reason why you might want to use this module is, it has an internal cache (defaults to 1 hour) and blocks concurrent API requests and returns the result of the first request to all pending calls. Additionally the returned object is a singleton. So no matter where you instantiate it, it will be using the same cache and shared results for concurrent calls.
