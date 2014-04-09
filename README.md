@@ -1,9 +1,11 @@
 googlefonts
 ================
 
-Node/Meteor wrapper for googlefonts API. 
+Node/Meteor wrapper for googlefonts API.
 
-This module will work in plain Node.js and within Meteor applications. By default it will cache the API result for 1 hour and assures there will be no concurrent requests to the Google API.
+This is basically not doing anything but requesting a single URL from the Google API and converting the result to JSON. The reason why you might want to use this module is, it has an internal cache (defaults to 1 hour) and blocks concurrent API requests and returns the result of the first request to all pending calls. Additionally the returned object is a singleton. So no matter where you instantiate it, it will be using the same cache and shared results for concurrent calls.
+
+This module will work in plain Node.js and within Meteor applications.
 
 To use the Google Fonts API, you need to [acquire an API key](https://developers.google.com/fonts/docs/developer_api#Auth) for server applications.
 
@@ -87,6 +89,9 @@ The result is a JSON object as returned from the API. It's the same exact conten
   // ...more fonts...
 }
 ```
+
+You can find a description of the fields on the [Google Fonts API manual page](https://developers.google.com/fonts/docs/developer_api#Details).
+
 
 ##Options
 
