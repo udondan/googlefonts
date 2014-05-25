@@ -1,6 +1,6 @@
 {
   "name": "googlefonts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node/Meteor wrapper for googlefonts API",
   "main": "lib/googlefonts.js",
   "scripts": {
