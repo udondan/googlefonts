@@ -36,7 +36,10 @@ var googlefonts = require("googlefonts").googlefonts;
 ``` JavaScript
 var serverKey = "YOUR-GOOGLE-API-KEY";
 var gfonts = new googlefonts(serverKey, options);
-gfonts.fetch(function(fonts) {
+gfonts.fetch(function(error, fonts) {
+    if(typeof error !== "undefined") {
+      throw error;
+    }
 	console.log(fonts);
 });
 ```
