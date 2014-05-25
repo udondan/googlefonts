@@ -1,8 +1,6 @@
 googlefonts
 ================
 
-[![NPM version](https://badge.fury.io/js/googlefonts.png)](https://www.npmjs.org/package/googlefonts)
-
 Node/Meteor wrapper for googlefonts API.
 
 This is basically not doing anything but requesting a single URL from the Google API and converting the result to JSON. The reason why you might want to use this module is, it has an internal cache (defaults to 1 hour) and blocks concurrent API requests and returns the result of the first request to all pending calls. Additionally the returned object is a singleton. So no matter where you instantiate it, it will be using the same cache and shared results for concurrent calls.
@@ -12,9 +10,9 @@ This module will work in plain Node.js and within Meteor applications.
 To use the Google Fonts API, you need to [acquire an API key](https://developers.google.com/fonts/docs/developer_api#Auth) for server applications.
 
 ##Install
-The module is registered in ~~[npm](https://www.npmjs.org/package/googlefonts) and~~ [Atmosphere](https://atmospherejs.com/package/googlefonts) repositories.
+The module is registered in the [Atmosphere](https://atmospherejs.com/package/googlefonts) repository for usage in Meteor.
 
-**npm package is not up to date, because npm is a piece of shit. Not going to deal with that any longer.** Please clone the repository yourself.
+**The [npm package](https://www.npmjs.org/package/googlefonts) is not up to date, because npm is a piece of shit. Not going to deal with that any longer. Please clone the repository yourself from github.** 
 
 ###Install via [Meteorite](http://oortcloud.github.io/meteorite/)
 
