@@ -7,17 +7,21 @@ This is basically not doing anything but requesting a single URL from the Google
 
 This module will work in plain Node.js and within Meteor applications.
 
-To use the Google Fonts API, you need to [acquire an API key](https://developers.google.com/fonts/docs/developer_api#Auth) for server applications.
+To use the Google Fonts API, you need to [acquire an API key][1] for server applications.
 
 ##Install
-The module is registered in the [Atmosphere](https://atmospherejs.com/package/googlefonts) repository for usage in Meteor.
+The module is registered in [Atmosphere][3] and [npm][4] repositories.
 
-**The [npm package](https://www.npmjs.org/package/googlefonts) is not up to date, because npm is a piece of shit. Not going to deal with that any longer. Please clone the repository yourself from github.** 
 
-###Install via [Meteorite](http://oortcloud.github.io/meteorite/)
+###Install via Meteor
 
 ``` sh
-$ mrt add googlefonts
+$ meteor add udondan:googlefonts
+```
+
+###Install via npm
+```sh
+$ npm install googlefonts
 ```
 
 
@@ -97,3 +101,8 @@ You can find a description of the fields on the [Google Fonts API manual page](h
 
 ###cacheLifeTime
 Sets the space of time for how long results will be served from cache in seconds. Defaults to 3600 (1 hour).
+
+  [1]: https://developers.google.com/fonts/docs/developer_api#Auth
+  [2]: https://developers.google.com/fonts/docs/developer_api#Details
+  [3]: https://atmospherejs.com/udondan/googlefonts
+  [4]: https://www.npmjs.org/package/googlefonts
