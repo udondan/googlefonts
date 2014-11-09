@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Meteor wrapper for googlefonts API",
-  version: "1.1.1",
+  version: "1.1.3",
   git: "https://github.com/udondan/googlefonts.git",
   environments: ['server']
 });
