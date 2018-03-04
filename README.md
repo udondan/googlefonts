@@ -1,5 +1,5 @@
-googlefonts
-================
+# googlefonts
+
 
 Node/Meteor wrapper for googlefonts API.
 
@@ -9,29 +9,30 @@ This module will work in plain Node.js and within Meteor applications.
 
 To use the Google Fonts API, you need to [acquire an API key][1] for server applications.
 
-##Install
+## Install
 The module is registered in [Atmosphere][3] and [npm][4] repositories.
 
 
-###Install via Meteor
+### Install via Meteor
 
 ``` sh
 $ meteor add udondan:googlefonts
 ```
 
-###Install via npm
+### Install via npm
 ```sh
 $ npm install googlefonts
 ```
 
 
-##Usage
-###In plain Node.js you need to require the module manually:
+## Usage
+
+### In plain Node.js you need to require the module manually:
 ``` JavaScript
 var googlefonts = require("googlefonts").googlefonts;
 ```
 
-###Fetching all fonts from Google:
+### Fetching all fonts from Google:
 ``` JavaScript
 var serverKey = "YOUR-GOOGLE-API-KEY";
 var gfonts = new googlefonts(serverKey, options);
@@ -39,7 +40,7 @@ gfonts.fetch(function(error, fonts) {
     if(typeof error !== "undefined") {
       throw error;
     }
-	console.log(fonts);
+    console.log(fonts);
 });
 ```
 
@@ -97,9 +98,9 @@ The result is a JSON object as returned from the API. It's the same exact conten
 You can find a description of the fields on the [Google Fonts API manual page](https://developers.google.com/fonts/docs/developer_api#Details).
 
 
-##Options
+## Options
 
-###cacheLifeTime
+### cacheLifeTime
 Sets the space of time for how long results will be served from cache in seconds. Defaults to 3600 (1 hour).
 
   [1]: https://developers.google.com/fonts/docs/developer_api#Auth
